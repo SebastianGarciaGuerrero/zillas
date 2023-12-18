@@ -1,0 +1,117 @@
+
+.hero-section{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/sillafondotherial.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-color: #83a9ac;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-bottom: 15px; 
+}
+
+.hero-description {
+  max-width: 600px;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: capitalize;
+  }
+  
+  .home-card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px #707070;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-img-top {
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  
+  .home-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .card-body ul {
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+    text-align: left;
+  }
+  
+  .card-body li {
+    margin-bottom: 5px;
+  }
+  
+  .card-body h6 {
+    text-align: left;
+  }
+  
+  .home-precio {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-body button {
+    margin: 5px;
+  }
+  
+  .card-body a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .btn-vermas-home {
+    background-color: #83a9ac;
+    color: white;
+    border-color: #83a9ac;
+  }
+  
+  .btn-add-home {
+    background-color: #83a9ac;
+    color: white;
+    border-color: #83a9ac;
+  }
+  
+  .btn-vermas-home:hover {
+    background-color: #5e7f81;
+    color: #fff;
+    border-color: #5e7f81;
+  }
+  
+  .btn-add-home:hover {
+    background-color: #5e7f81;
+    color: #fff;
+    border-color: #5e7f81;
+  }
+
+
